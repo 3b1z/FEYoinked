@@ -1,0 +1,63 @@
+-- yas
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/3b1z/FEYoinked/main/Material"))()
+
+local X = Material.Load({
+    Title = "Zaxx's script",
+    Style = 2,
+    SizeX = 500,
+    SizeY = 350,
+    Theme = "Aqua",
+    ColorOverrides = {
+        MainFrame = Color3.fromRGB(35,35,35)
+    }
+})
+
+
+local Z = X.New({
+    Title = "FE scripts"
+})
+
+local A = Z.Button({
+    Text = "Noob God [56]",
+    Callback = function()
+        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/3b1z/FEYoinked/main/Noob", true))()
+    end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+                Text = "only works in r6 games"
+            })
+        end
+    }
+})
+
+local A = Z.Button({
+    Text = "Mad Wizard [R6]",
+    Callback = function()
+        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/3b1z/FEYoinked/main/Wizard", true))()
+    end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+                Text = "only works in R6 games"
+            })
+        end
+    }
+})
+
+local A = Z.Button({
+    Text = "Gangster [R6]",
+    Callback = function()
+        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/3b1z/FEYoinked/main/Gangster", true))()
+    end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+                Text = "only works in R6 games"
+            })
+        end
+    }
+})
