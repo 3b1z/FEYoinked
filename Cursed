@@ -35,7 +35,7 @@ workspace.Camera.CFrame=_G.OldCF
 game.Players.LocalPlayer.Character=oldchar
 end
 _G.ClickFling=false -- Set this to true if u want.
-loadstring(game:HttpGet(('https://github.com/3b1z/FEYoinked/blob/main/NexoPD'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/3b1z/FEYoinked/main/NexoPD'),true))()
 
 IT = Instance.new
 CF = CFrame.new
