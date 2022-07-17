@@ -64,7 +64,7 @@ local A = Z.Button({
 
 
 local A = Z.Button({
-    Text = "Mad Wizard [R6]",
+    Text = "Golden Freddy [R6]",
     Callback = function()
         
         loadstring(game:HttpGet("https://raw.githubusercontent.com/3b1z/FEYoinked/main/GoldenFreddy", true))()
