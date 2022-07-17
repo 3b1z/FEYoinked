@@ -33,6 +33,21 @@ local A = Z.Button({
 })
 
 local A = Z.Button({
+    Text = "Krystal Dance",
+    Callback = function()
+        
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/3b1z/FEYoinked/main/Krystal%20Dance", true))()
+    end,
+    Menu = {
+        Information = function(self)
+            X.Banner({
+                Text = "only works in R6 games"
+            })
+        end
+    }
+})
+
+local A = Z.Button({
     Text = "Mad Wizard [R6]",
     Callback = function()
         
